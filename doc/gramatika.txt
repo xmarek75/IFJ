@@ -1,0 +1,101 @@
+final:
+1.  REQ ::= require str_val PROG
+2.  PROG ::= global id : function ( PAR_TYPES ) TYPES PROG
+3.  PROG ::= function id ( PARAMS ) TYPES BODY  end PROG
+4.  PROG ::= id ( ARGS ) PROG
+5.  PROG ::= eof
+6.  TYPES ::= : TYPE NEXT_TYPE
+7.  TYPES ::=  ''
+8.  TYPE ::= integer
+9.  TYPE ::= number
+10. TYPE ::= string
+11. TYPE ::= nil
+12. NEXT_TYPE ::=  , TYPE  NEXT_TYPE
+13. NEXT_TYPE ::= ''
+14. PARAMS ::= id : TYPE NEXT_PARAM
+15. PARAMS ::= ''
+16. NEXT_PARAM ::= , id : TYPE  NEXT_PARAM
+17. NEXT_PARAM ::= ''
+18. ARGS ::= TERM NEXT_TERM
+19. ARGS ::= ''
+20. NEXT_TERM ::= , TERM NEXT_TERM
+21. NEXT_TERM ::= ''
+22. TERM ::= integer_val
+23. TERM ::= number_val
+24. TERM ::= string_val
+25. TERM ::= nil
+26. TERM ::= id
+27. BODY ::= local id : TYPE INIT BODY
+28. BODY ::= if EXPRESSION then BODY else BODY end BODY
+29. BODY ::= while EXPRESSION do BODY end BODY
+30. BODY ::= return EXPRESSIONS
+31. BODY ::= id ASSIGN BODY
+32. BODY ::= ''
+33. EXPR_OR_FNC ::= EXPRESSION
+34. EXPR_OR_FNC ::=  id ( ARGS )
+35. EXPRESSIONS ::= EXPRESSION NEXT_EXPRESSION
+36. EXPRESSIONS ::= ''
+37. NEXT_EXPRESSION ::= , EXPRESSION NEXT_EXPRESSION
+38. NEXT_EXPRESSION ::=  ''
+39. ASSIGN ::= ( ARGS )
+40. ASSIGN ::= NEXT_ID = EXPRS_OR_FNC
+41. NEXT_ID ::= , id NEXT_ID
+42. NEXT_ID ::= ''
+43. EXPRS_OR_FNC ::= EXPRESSION NEXT_EXPRESSION
+44. EXPRS_OR_FNC ::= id ( ARGS )
+45. INIT ::= ''
+46. INIT ::= = EXPR_OR_FNC
+47. PAR_TYPES ::= TYPE NEXT_TYPE
+48. PAR_TYPES ::=  ''
+
+
+
+Finall bez cisel:
+REQ ::= require str_val PROG
+PROG  ::=  global id : function ( TYPES ) TYPES PROG
+PROG ::= function id ( PARAMS ) TYPES BODY  end PROG
+PROG ::= id ( ARGS ) PROG
+PROG ::= eof
+TYPES ::= : TYPE NEXT_TYPE
+TYPES ::=  ''
+TYPE ::= integer
+TYPE ::= number
+TYPE ::= string
+TYPE ::= nil
+NEXT_TYPE ::=  , TYPE  NEXT_TYPE
+NEXT_TYPE ::= ''
+PARAMS ::= id : TYPE NEXT_PARAM
+PARAMS ::= ''
+NEXT_PARAM ::= , id : TYPE  NEXT_PARAM
+NEXT_PARAM ::= ''
+ARGS ::= TERM NEXT_TERM
+ARGS ::= ''
+NEXT_TERM ::= , TERM NEXT_TERM
+NEXT_TERM ::= ''
+TERM ::= integer_val
+TERM ::= number_val
+TERM ::= string_val
+TERM ::= nil
+TERM ::= id
+BODY ::= local id : TYPE INIT BODY
+BODY ::= if EXPRESSION then BODY else BODY end BODY
+BODY ::= while EXPRESSION do BODY end BODY
+BODY ::= return EXPRESSIONS
+BODY ::= id ASSIGN BODY
+BODY ::= ''
+EXPR_OR_FNC ::= EXPRESSION
+EXPR_OR_FNC ::=  id ( ARGS )
+EXPRESSIONS ::= EXPRESSION NEXT_EXPRESSION
+EXPRESSIONS ::= ''
+NEXT_EXPRESSION ::= , EXPRESSION NEXT_EXPRESSION
+NEXT_EXPRESSION ::=  ''
+ASSIGN ::= ( ARGS )
+ASSIGN ::= NEXT_ID = EXPRS_OR_FNC
+NEXT_ID ::= , id NEXT_ID
+NEXT_ID ::= ''
+EXPRS_OR_FNC ::= EXPRESSION NEXT_EXPRESSION
+EXPRS_OR_FNC ::= id ( ARGS )
+INIT ::= ''
+INIT ::= = EXPR_OR_FNC
+PAR_TYPES ::= TYPE NEXT_TYPE
+PAR_TYPES ::=  ''
