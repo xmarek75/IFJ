@@ -1,2 +1,2 @@
-# IFJ
-IFJ Implementace překladače imperativního jazyka IFJ21
+# IFJ2021
+IJF project - VUT FIT
