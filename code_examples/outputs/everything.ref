@@ -1,0 +1,135 @@
+do 
+else 
+end 
+function 
+global 
+if 
+integer 
+local 
+nil 
+number 
+require 
+return 
+string 
+then 
+while 
+#
+*
+/
+//
++
+-
+..
+<
+<=
+>
+>=
+==
+~=
+#
+#
+*
+//
+//
+/
++
++
+-
+-
+..
+..
+<
+<=
+>=
+==
+=
+~=
+identif: a
+int: 1
+identif: a1
+int: 1
+identif: a
+int: 1
+identif: a1
+identif: a1a
+identif: a_
+int: 1
+identif: _
+identif: a1_
+int: 1
+identif: a_
+int: 1
+identif: a1_
+identif: a1a_
+identif: _
+identif: _a
+identif: _1
+identif: _a1
+identif: _1a
+identif: _1a1
+identif: _a1a
+identif: __
+identif: _a_
+identif: _1_
+identif: _a1_
+identif: _1a_
+identif: _1a1_
+identif: _a1a_
+int: 135
+identif: test
+int: 0
+int: 1235
+int: 215
+num: 0.000000
+num: 1.500000
+num: 1.900000
+num: 1.009000
+num: 1.000000
+num: 100000.000000
+num: 1000000000.000000
+num: 1.000000
+num: 100000.000000
+num: 1000000000.000000
+num: 1.000000
+num: 100000.000000
+num: 1000000000.000000
+num: 1.500000
+str: +10
+num: 105.000000
+str: -10
+num: 1.050000
+num: 1.900000
+num: 190000.000000
+num: 1900000000.000000
+num: 456.645000
+num: 166.545600
+num: 146.940000
+num: 1860000.000000
+num: 6810000.000000
+num: 681000000000.000000
+num: 541000000.000000
+num: 3410000000000.000000
+num: 456000000000.000000
+num: 5315000.000000
+num: 1200000000000000023171116165960292210384514014055552253952.000000
+num: 80000000000000001617510330172475759086087705857148619291022148496640320399853144748695826202624.000000
+num: 34999999999999998553962209334549513225016776419954243653202870272.000000
+num: 50000.000000
+num: 1500000000.000000
+num: 1.900000
+num: 33190000.000000
+num: 1900000000.000000
+str:  c c c 
+str: tab 	 lomitko \ uvozovka " NL 
+ 
+str: 
+str: ÿ
+str: \	\
+int: 153
+if 
+nil 
+else 
+end 
+nil 
+do 
+EOF

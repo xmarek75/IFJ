@@ -1,0 +1,66 @@
+**** Inicaializace ds ****
+Text:  
+Delka: 0 
+Pouzity prostor: 1/16 bajtu 
+******************
+
+**** Pridani retezce do ds ****
+Text: abcdefg 
+Delka: 7 
+Pouzity prostor: 8/16 bajtu 
+******************
+
+**** Pridani znaku do ds ****
+Text: abcdefgc 
+Delka: 8 
+Pouzity prostor: 9/16 bajtu 
+******************
+
+**** Vycisteni ds ****
+Text:  
+Delka: 0 
+Pouzity prostor: 1/16 bajtu 
+******************
+
+**** Pridani retezce velke delky do ds ****
+Text: abcdefghijklmnopqrstuv 
+Delka: 22 
+Pouzity prostor: 23/38 bajtu 
+******************
+
+**** Inicaializace ds2 ****
+Text:  
+Delka: 0 
+Pouzity prostor: 1/16 bajtu 
+******************
+
+**** Kopie ds do ds2 ****
+Text: abcdefghijklmnopqrstuv 
+Delka: 22 
+Pouzity prostor: 23/23 bajtu 
+******************
+
+**** Porovnani ds1 a ds2 ****
+Text ds1: abcdefghijklmnopqrstuv 
+Text ds2: abcdefghijklmnopqrstuv 
+Porovnani vratilo: 0 
+******************
+
+**** Vynulovani ds ****
+Text:  
+Delka: 0 
+Pouzity prostor: 1/38 bajtu 
+******************
+
+**** Vlozeni "keyword1" do ds ****
+Text: keyword1 
+Delka: 8 
+Pouzity prostor: 9/38 bajtu 
+******************
+
+**** Porovnani ds1 a s ****
+Text ds: keyword1 
+Text s: keyword1 
+Porovnani vratilo: 0 
+******************
+

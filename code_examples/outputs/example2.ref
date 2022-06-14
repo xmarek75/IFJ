@@ -1,0 +1,107 @@
+require 
+str: ifj21
+function 
+identif: factorial
+(
+identif: n
+:
+integer 
+)
+:
+integer 
+local 
+identif: n1
+:
+integer 
+=
+identif: n
+-
+int: 1
+if 
+identif: n
+<
+int: 2
+then 
+return 
+int: 1
+else 
+local 
+identif: tmp
+:
+integer 
+=
+identif: factorial
+(
+identif: n1
+)
+return 
+identif: n
+*
+identif: tmp
+end 
+end 
+function 
+identif: main
+(
+)
+identif: write
+(
+str: Zadejte cislo pro vypocet faktorialu: 
+)
+local 
+identif: a
+:
+integer 
+=
+identif: readi
+(
+)
+if 
+identif: a
+~=
+nil 
+then 
+if 
+identif: a
+<
+int: 0
+then 
+identif: write
+(
+str: Faktorial nejde spocitat!
+,
+str: 
+
+)
+else 
+local 
+identif: vysl
+:
+integer 
+=
+identif: factorial
+(
+identif: a
+)
+identif: write
+(
+str: Vysledek je 
+,
+identif: vysl
+,
+str: 
+
+)
+end 
+else 
+identif: write
+(
+str: Chyba pri nacitani celeho cisla!
+
+)
+end 
+end 
+identif: main
+(
+)
+EOF

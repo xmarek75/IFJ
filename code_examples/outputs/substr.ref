@@ -1,0 +1,113 @@
+require 
+str: ifj21
+function 
+identif: main
+(
+)
+local 
+identif: s1
+:
+string 
+=
+str: Toto je nejaky text
+local 
+identif: s2
+:
+string 
+=
+identif: s1
+..
+str: , ktery jeste trochu obohatime
+identif: write
+(
+identif: s1
+,
+str: 
+
+,
+identif: s2
+,
+str: 
+
+)
+local 
+identif: s1len
+:
+integer 
+=
+#
+identif: s1
+local 
+identif: s1len4
+:
+integer 
+=
+#
+identif: s1
+-
+int: 3
+identif: s1
+=
+identif: substr
+(
+identif: s2
+,
+identif: s1len4
+,
+identif: s1len
+)
+identif: write
+(
+str: 4 znaky od 
+,
+identif: s1len4
+,
+str: . znaku v "
+,
+identif: s2
+,
+str: ":
+,
+identif: s1
+,
+str: 
+
+)
+identif: s1
+=
+identif: substr
+(
+identif: s2
+,
+int: 16
+,
+int: 19
+)
+identif: s1len4
+=
+#
+identif: s1
+identif: write
+(
+identif: s1len4
+,
+str:  znaky od 
+,
+int: 16
+,
+str: . znaku v "
+,
+identif: s2
+,
+str: ":
+,
+identif: s1
+,
+str: 
+
+)
+end 
+identif: main
+(
+)
+EOF

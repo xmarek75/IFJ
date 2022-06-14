@@ -1,0 +1,90 @@
+require 
+str: ifj21
+function 
+identif: program
+(
+)
+local 
+identif: y
+:
+integer 
+=
+int: 20
+if 
+int: 1
+==
+int: 1
+then 
+identif: y
+=
+int: 10
+identif: write
+(
+identif: y
+)
+else 
+identif: write
+(
+identif: y
+)
+end 
+identif: write
+(
+identif: y
+)
+local 
+identif: i
+:
+integer 
+=
+int: 1
+while 
+identif: i
+<=
+int: 10
+do 
+local 
+identif: i
+:
+integer 
+=
+identif: i
++
+int: 5
+identif: i
+=
+identif: i
++
+int: 1
+identif: write
+(
+identif: i
+)
+identif: write
+(
+str: Insert non-empty input for quiting, otherwise next iteration.
+
+)
+local 
+identif: inp
+:
+string 
+=
+identif: reads
+(
+)
+if 
+#
+identif: inp
+~=
+int: 0
+then 
+return 
+else 
+end 
+end 
+end 
+identif: program
+(
+)
+EOF

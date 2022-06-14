@@ -1,0 +1,84 @@
+require 
+str: ifj21
+function 
+identif: main
+(
+)
+local 
+identif: a
+:
+integer 
+local 
+identif: vysl
+:
+integer 
+=
+int: 0
+identif: write
+(
+str: Zadejte cislo pro vypocet faktorialu
+
+)
+identif: a
+=
+identif: readi
+(
+)
+if 
+identif: a
+==
+nil 
+then 
+identif: write
+(
+str: a je nil
+
+)
+return 
+else 
+end 
+if 
+identif: a
+<
+int: 0
+then 
+identif: write
+(
+str: Faktorial nelze spocitat
+
+)
+else 
+identif: vysl
+=
+int: 1
+while 
+identif: a
+>
+int: 0
+do 
+identif: vysl
+=
+identif: vysl
+*
+identif: a
+identif: a
+=
+identif: a
+-
+int: 1
+end 
+identif: write
+(
+str: Vysledek je: 
+,
+identif: vysl
+,
+str: 
+
+)
+end 
+end 
+identif: main
+(
+)
+EOF

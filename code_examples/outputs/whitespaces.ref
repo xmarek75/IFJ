@@ -1,0 +1,46 @@
+require 
+str: ifj21
+function 
+identif: whitespaces
+(
+)
+local 
+identif: s
+:
+string 
+=
+str: ~
+identif: write
+(
+identif: s
+,
+str: 
+
+)
+identif: s
+=
+str: a!b
+identif: write
+(
+identif: s
+,
+str: 
+
+)
+local 
+identif: x
+:
+integer 
+=
+int: 0
+-
+int: 1
+identif: write
+(
+identif: x
+)
+end 
+identif: whitespaces
+(
+)
+EOF

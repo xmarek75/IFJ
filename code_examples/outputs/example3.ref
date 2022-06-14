@@ -1,0 +1,122 @@
+require 
+str: ifj21
+function 
+identif: main
+(
+)
+local 
+identif: s1
+:
+string 
+=
+str: Toto je nejaky text
+local 
+identif: s2
+:
+string 
+=
+identif: s1
+..
+str: , ktery jeste trochu obohatime
+identif: write
+(
+identif: s1
+,
+str: 
+
+,
+identif: s2
+)
+local 
+identif: s1len
+:
+integer 
+=
+#
+identif: s1
+local 
+identif: s1len4
+:
+integer 
+=
+identif: s1len
+identif: s1len
+=
+identif: s1len
+-
+int: 4
+identif: s1
+=
+identif: substr
+(
+identif: s2
+,
+identif: s1len
+,
+identif: s1len4
+)
+identif: s1len
+=
+identif: s1len
++
+int: 1
+identif: write
+(
+str: 4 znaky od
+,
+identif: s1len
+,
+str: . znaku v "
+,
+identif: s2
+,
+str: ":
+,
+identif: s1
+,
+str: 
+
+)
+identif: write
+(
+str: Zadejte serazenou posloupnost vsech malych pismen a-h, 
+)
+identif: write
+(
+str: pricemz se pismena nesmeji v posloupnosti opakovat: 
+)
+identif: s1
+=
+identif: reads
+(
+)
+if 
+identif: s1
+~=
+nil 
+then 
+while 
+identif: s1
+~=
+str: abcdefgh
+do 
+identif: write
+(
+str: 
+
+,
+str: Spatne zadana posloupnost, zkuste znovu:
+)
+identif: s1
+=
+identif: reads
+(
+)
+end 
+else 
+end 
+end 
+identif: main
+(
+)
+EOF

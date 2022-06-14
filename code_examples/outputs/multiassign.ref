@@ -1,0 +1,131 @@
+require 
+str: ifj21
+function 
+identif: foo
+(
+identif: x
+:
+integer 
+,
+identif: y
+:
+integer 
+)
+:
+integer 
+,
+integer 
+local 
+identif: i
+:
+integer 
+=
+identif: x
+local 
+identif: j
+:
+integer 
+=
+(
+identif: y
++
+int: 2
+)
+*
+int: 3
+identif: i
+,
+identif: j
+=
+identif: j
++
+int: 1
+,
+identif: i
++
+int: 1
+return 
+identif: i
+,
+identif: j
+end 
+function 
+identif: main
+(
+)
+local 
+identif: a
+:
+integer 
+=
+int: 1
+local 
+identif: b
+:
+integer 
+=
+int: 2
+identif: a
+,
+identif: b
+=
+identif: foo
+(
+identif: a
+,
+identif: b
+)
+if 
+identif: a
+<
+identif: b
+then 
+identif: write
+(
+identif: a
+,
+str: <
+,
+identif: b
+,
+str: 
+
+)
+else 
+identif: write
+(
+identif: a
+,
+str: >=
+,
+identif: b
+,
+str: 
+
+)
+local 
+identif: a
+:
+integer 
+=
+int: 666
+identif: write
+(
+identif: a
+,
+str: 
+
+)
+end 
+identif: write
+(
+identif: a
+,
+str: 
+
+)
+end 
+identif: main
+(
+)
+EOF

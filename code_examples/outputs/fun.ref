@@ -1,0 +1,123 @@
+require 
+str: ifj21
+global 
+identif: g
+:
+function 
+(
+integer 
+)
+:
+integer 
+function 
+identif: f
+(
+identif: x
+:
+integer 
+)
+:
+integer 
+if 
+identif: x
+<
+int: 10
+then 
+return 
+identif: x
+-
+int: 1
+else 
+identif: x
+=
+identif: x
+-
+int: 1
+identif: write
+(
+str: calling g with 
+,
+identif: x
+,
+str: 
+
+)
+local 
+identif: res
+:
+integer 
+=
+identif: g
+(
+identif: x
+)
+return 
+identif: res
+end 
+end 
+function 
+identif: g
+(
+identif: x
+:
+integer 
+)
+:
+integer 
+if 
+identif: x
+>
+int: 0
+then 
+identif: write
+(
+str: calling f with 
+,
+identif: x
+,
+str: 
+
+)
+local 
+identif: x
+:
+integer 
+=
+identif: f
+(
+identif: x
+)
+return 
+identif: x
+else 
+return 
+int: 200
+end 
+end 
+function 
+identif: main
+(
+)
+local 
+identif: res
+:
+integer 
+=
+identif: g
+(
+int: 10
+)
+identif: write
+(
+str: res: 
+,
+identif: res
+,
+str: 
+
+)
+end 
+identif: main
+(
+)
+EOF

@@ -1,0 +1,28 @@
+require 
+str: ifj21
+function 
+identif: hlavni_program
+(
+identif: year
+:
+integer 
+)
+identif: write
+(
+str: Hello from IFJ
+,
+identif: year
+,
+str: 
+
+)
+end 
+identif: hlavni_program
+(
+int: 21
+)
+identif: hlavni_program
+(
+int: 22
+)
+EOF

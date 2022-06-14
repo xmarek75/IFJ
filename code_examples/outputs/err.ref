@@ -1,0 +1,22 @@
+ERROR: Unsupported character on input
+ERROR: '.' isn't a valid token 
+ERROR: '~' isn't a valid token 
+ERROR: Unterminated block comment
+ERROR: Unterminated block comment
+ERROR: Unterminated string - missing terminating " character
+ERROR: Escape sequence inside a string is out of range (\001 - \255)
+ERROR: Escape sequence inside a string is out of range (\001 - \255)
+ERROR: Escape sequence inside a string is out of range (\001 - \255)
+ERROR: Nonexistent escape sequence inside a string
+ERROR: Unterminated string - missing terminating " character
+ERROR: Integer value is out of range
+ERROR: Integer value is out of range
+ERROR: Missing decimal part after the decimal dot inside a constant number
+ERROR: Missing exponent after 'e' inside a constant number
+ERROR: Missing exponent after 'e' inside a constant number
+identif: End
+EOF
+ERROR: Unterminated string - missing terminating " character
+identif: a
+num: 0.000000
+EOF
